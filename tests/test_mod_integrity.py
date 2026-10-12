@@ -26,7 +26,7 @@ class ModIntegrityTests(unittest.TestCase):
         self.assertEqual(root["id"], "CompanionDogsBlueHeeler")
         self.assertEqual(root["require"], "CompanionDogs")
         self.assertEqual(root["modversion"], "0.1.0")
-        self.assertEqual(root["author"], "james")
+        self.assertEqual(root["author"], "jmsgnnr")
 
     def test_has_required_lua_integration(self):
         breed = (LUA / "shared" / "CompanionDogsBlueHeeler_Breed.lua").read_text(encoding="utf-8")
@@ -50,7 +50,7 @@ class ModIntegrityTests(unittest.TestCase):
         self.assertTrue((LUA / "shared" / "Translate" / "EN" / "IG_UI.json").exists())
 
     def test_only_one_addon_shipped(self):
-        self.assertEqual([p.name for p in ROOT.iterdir() if p.is_dir() and p.name not in ("tests", "__pycache__")], ["42"])
+        self.assertEqual([p.name for p in ROOT.iterdir() if p.is_dir() and p.name not in (".git", "tests", "__pycache__")], ["42"])
         actual = parse_metadata(PACKAGE / "mod.info")["id"]
         self.assertEqual(actual, "CompanionDogsBlueHeeler")
 

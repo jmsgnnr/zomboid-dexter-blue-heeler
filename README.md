@@ -1,5 +1,7 @@
 # Dexter: Blue Heeler for Project Zomboid
 
+Created by [@jmsgnnr](https://github.com/jmsgnnr). Companion Dogs and Project Zomboid APIs credited separately below.
+
 ![Dexter Blue Heeler mod artwork](42/poster.png)
 
 A community-made **Australian Cattle Dog / Blue Heeler breed add-on** for [Project Zomboid](https://projectzomboid.com/) Build 42, named for Dexter. Adds a custom blue-coat breed to the existing **Companion Dogs** framework without bundling the base mod.
