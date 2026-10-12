@@ -1,0 +1,10 @@
+{
+    "IGUI_Breed_blueheeler": "Blue Heeler",
+    "IGUI_AnimalType_heelermale": "Blue Heeler (male)",
+    "IGUI_AnimalType_heelerfemale": "Blue Heeler (female)",
+    "IGUI_AnimalType_heelerpup": "Blue Heeler (puppy)",
+    "IGUI_PD_Breed_blueheeler": "Blue Heeler",
+    "IGUI_PD_BreedDesc_blueheeler": "A tough Australian cattle dog. Learns herding and obedience fast, holds its own in a fight, and works the stock without wearing you out. Strays turn up around barns and farmsteads, and rarely in houses.",
+    "IGUI_PD_Moodle_CattleDrive": "Cattle Drive",
+    "IGUI_PD_Moodle_CattleDrive_desc": "Your Blue Heeler works the stock with you. While it stays close, fed and loyal, livestock settle down and you tire more slowly."
+}

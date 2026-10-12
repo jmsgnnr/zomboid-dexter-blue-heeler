@@ -1,0 +1,10 @@
+id=CompanionDogsBlueHeeler
+name=CD: Blue Heeler
+description=Blue Heelers (Australian Cattle Dogs) for Companion Dogs. REQUIRES the Companion Dogs mod (0.7.0 or newer). Uses the German Shepherd body with a custom coat. Credit: Companion Dogs by Björn.
+poster=poster.png
+icon=icon.png
+author=james
+require=CompanionDogs
+modversion=0.1.0
+pzversion=42.19.0
+versionMin=42.18.0
